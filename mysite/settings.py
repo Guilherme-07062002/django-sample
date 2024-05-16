@@ -27,11 +27,14 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+APPEND_SLASH = False
+
 
 # Application definition
 
 INSTALLED_APPS = [
     "polls.apps.PollsConfig",
+    "todolist.apps.TodolistConfig",
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
